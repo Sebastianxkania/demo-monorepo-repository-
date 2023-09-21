@@ -1,0 +1,97 @@
+.main_wrapper {
+  margin-top: 0px;
+  text-align: center;
+  background: #f7f7f5;
+}
+
+/* //////////////////////// GRID //////////////////////// */ 
+
+.grid_parent {
+  display: grid;
+  grid-template-columns: minmax(0rem, 1fr) minmax(auto, 90ch) minmax(0rem, 1fr);
+  height: 100vh;
+}
+
+.grid_child_1 {
+  width: 100%;
+  background: #f7f7f5;
+}
+
+.grid_child_2 {
+  width: 100%;
+  background: #f7f7f5;
+}
+
+.grid_child_3 {
+  width: 100%;
+  background: #f7f7f5;
+}
+
+.main_wrapper {
+  background: #f7f7f5;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* //////////////////////// NAVIGATION //////////////////////// */ 
+
+.nav1 {
+  overflow: hidden;
+
+  background: white;
+  text-align: center;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 10px 10px;
+}
+
+.link01 {
+  float: left;
+
+  list-style: none;
+
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+
+
+  padding: 10px 10px;
+}
+
+.nav1_right {
+    float: right;
+}
+
+.nav1 a:hover {
+  color: grey;
+  
+}
+
+.side_nav {
+  background: white;
+  height: 58px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+
+/* //////////////////////// INPUT //////////////////////// */ 
+
+.input01 {
+
+  margin-top: 15px;
+  width: 322px;
+  border: 1px solid #e9e9e9;
+  border-radius: 15px;
+  height: 30px;
+  font-size:16px;
+
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  
+}  
+
+.input01:focus { 
+  outline: none;
+}
+
